@@ -1,3 +1,135 @@
+/* Font */
 body{
-    color: black;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+/* Marging All Section */
+section{
+    margin-bottom: 100px;
+}
+.laptop{
+    margin-top: 100px;
+}
+
+
+/* Header Menu */
+.header_menu{
+    padding-top: 50px;
+}
+.menu-logo img{
+    width: 227px;
+}
+.navbar-nav a{
+    color: #707070;
+    font-size: 18px;
+}
+.slider-text p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.slider-text h1{
+    color: #1F1F1F;
+    font-size: 41px;
+}
+.buy-button{
+    border: none;
+    background-color: black;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 15px 25px;
+    border-radius: 5px;
+    
+}
+.carousel-indicators{
+    margin: -30px;
+}
+.carousel-indicators [data-bs-target]{
+    background-color: gray;
+    height: 10px;
+    width: 12px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.carousel-indicators .active{
+    background-color: #FF9C35;
+    width: 45px;
+    height: 12px;
+    background-color: #FF9C35;
+    border: 1px solid #FF9C35;
+}
+
+
+.slider-bg2{
+    background-image: url("images/bg-2.png");
+    background-repeat: no-repeat;
+    /* background-position: 0 450px; */
+    background-position-y: bottom;
+    height: 650px;
+}
+.slider-bg1{
+    background-image: url("images/bg-1.png");
+    background-repeat: no-repeat;
+    background-position-x: 430px;
+}
+
+/* Phone */
+.phone h2{
+    color: #1F1F1F;
+    font-size: 30px;
+}
+.see-all{
+    color: #FF9D00;
+    font-size: 22px;
+    text-decoration: none;
+}
+.product-top{
+    padding-bottom: 46px;
+}
+.card img{
+    width: 207px;
+    padding-bottom: 20px;
+}
+.card{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgb(222 226 230) 2px 2px 5px;
+}
+.card-body h5{
+    font-size: 24px;
+    color: #1F1F1F;
+}
+.card-body p{
+    font-size: 16px;
+}
+.card-footer{
+    border-top: none;
+    background-color: white;
+}
+
+/* Category */
+.cat-header img{
+    padding-left: 20px;
+    padding-bottom: 50px;
+}
+
+.cat2{
+    box-shadow: 1px 1px 10px #dee2e6;
+    padding: 50px 10px;
+    border-radius: 25px 5px;
+    margin-bottom: 30px;
+}
+.bag-cat{
+    box-shadow: 1px 1px 10px #dee2e6;
+    padding: 50px 10px;
+    border-radius: 25px 5px;
+    margin-bottom: 30px;
+}
+
+.category h3{
+    text-align: center;
+}
+.cat2 h3{
+    padding-top: 25px;
 }
